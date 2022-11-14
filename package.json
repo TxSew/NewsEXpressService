@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "thanhdq",
+  "type": "module",
+  "main": "src\\index.js",
+  "scripts": {
+    "start": "nodemon src\\index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node-sass --watch src/sass/app.scss src/public/css/style.css"
+  },
+  "keywords": [
+    "thanhdz"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "morgan": "^1.10.0",
+    "node-sass": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
